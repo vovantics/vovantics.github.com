@@ -1,0 +1,12 @@
+<p class="header-title lead"><a href="{{ site.baseurl }}" title="Home" style="color: black;"><strong>{{ site.title }}</strong></a></p>
+<p class="lead header-lead pull-right">
+  {% for link in site.links %}
+    {% if forloop.index != 1 %} · {% endif %}
+    {% if page.url == link.url %}
+      <span>{{ link.name }}</span>
+    {% else %}
+      <a target="{% if link.external %}_blank{% else %}_top{% endif %}" href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}">{{ link.name }}</a>
+    {% endif %}
+  {% endfor %}
+</p>
+

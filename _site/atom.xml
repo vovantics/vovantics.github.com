@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Stevo</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2015-01-06T19:04:52+08:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Stephen Vo Van</name>
+   <email>stephenvovan@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Living Recipe</title>
+   <link href="http://localhost:4000//2014/11/20/living-recipe/"/>
+   <updated>2014-11-20T00:00:00+08:00</updated>
+   <id>http://localhost:4000/2014/11/20/living-recipe</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;For avid cooks and diet conscious people, &lt;a href=&quot;http://livingrecipe.io&quot;&gt;Living Recipe&lt;/a&gt; is a publishing platform that helps you perfect your favourite recipes and create your own menu.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+
+</feed>

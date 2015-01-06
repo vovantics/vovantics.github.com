@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="container content">
+
+      <div class="header" style="text-align: left;">
+        {% include nav.html %}
+      </div>      
+
+      <hr>
+
+      <main>
+        {{ content }}
+      </main>
+
+      <hr>
+
+      {% include footer.html %}
+
+    </div>
+
+    {% include google_analytics.html %}
+
+  </body>
+
+</html>
