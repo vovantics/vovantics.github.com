@@ -95,6 +95,14 @@ input, textarea {
 }
 
 /*
+ * Form component.
+ */
+
+.form-control.error {
+  border-bottom: 2px solid #a94442;
+}
+
+/*
  * Header component.
  */
 

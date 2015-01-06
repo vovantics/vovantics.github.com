@@ -1,17 +1,17 @@
 <div id="letter">
-  <form method="post" action="//formspree.io/stephenvovan@gmail.com">
+  <form method="post" id="contact-me" action="//formspree.io/stephenvovan@gmail.com">
     <div class="letter-wrapper">
       <div class="pull-right text-right">
         <div>
           <label for="email">From:</label>
-          <input type="text" name="email" class="required _replyto" placeholder="You@Email.com"></input>
+          <input type="text" name="email" class="form-control _replyto" placeholder="You@Email.com" required></input>
         </div>
         <div>
           <label for="subject">Subject:</label>
-          <input type="text" name="subject" class="required" placeholder="Our Project"></input>
+          <input type="text" name="subject" class="form-control" placeholder="Our Project" required></input>
         </div>
       </div>
-      <textarea name="message" class="required">
+      <textarea name="message" class="form-control" required>
 Hey Stevo,
 
 I am interested in ... Our site is http://www.___.com. How do we proceed from here?
@@ -29,3 +29,17 @@ Your Name
     </div>
   </form>
 </div>
+<script>
+// Configure jquery validate.
+$.validator.setDefaults({
+  errorPlacement: function(error, element) {}
+});
+$("#contact-me").validate({
+  rules: {
+    email: {
+      required: true,
+      email: true
+    }
+  }
+});
+</script>
