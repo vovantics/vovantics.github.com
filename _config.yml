@@ -5,7 +5,7 @@ relative_permalinks: true
 # Setup
 title:            Stevo
 tagline:          Full stack web developer, here to help you.
-url:              http://localhost:4000
+url:              http://stephenvovan.com
 paginate:         1
 baseurl:          /
 author:
