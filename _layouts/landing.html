@@ -1,31 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
-  {% include head.html %}
-
-  <body>
-
-    <div class="container content">
-      <section class="header">
-        <span class="lead"><a href="{{ site.baseurl }}" title="Home" style="color: black;"><strong>{{ site.title }}</strong></a></span>
-        <br>
-        <span class="lead"><a href="mailto:{{ site.author.email }}" style="color: black;">{{ site.author.email }}</a></span>
-      </section>
-
-      <hr>
-
-      <main>
-        {{ content }}
-      </main>
-
-      <hr>
-
-      {% include footer.html %}
-
-    </div>
-
-    {% include google_analytics.html %}
-
-  </body>
-
-</html>
+<article>
+  <header>
+    <a href="{{ site.baseurl }}" title="Home" style="color: #fff;"><strong>{{ site.title }}</strong></a>
+    <br>
+    <a href="mailto:{{ site.email }}" style="color: #fff;">{{ site.email }}</a>
+  </header>
+  <hr>
+  {{ content }}
+</article>

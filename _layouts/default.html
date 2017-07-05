@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  {% include head.html %}
+  <head>
+    {% include head.html %}
+    {% seo %}
+  </head>
 
   <body>
 
     <div class="container content">
 
-      <div class="header" style="text-align: left;">
-        {% include nav.html %}
-      </div>      
-
-      <hr>
-
-      <main>
+      <main aria-label="Content">
         {{ content }}
       </main>
 
@@ -23,7 +20,7 @@
 
     </div>
 
-    {% include google_analytics.html %}
+    {% include google-analytics.html %}
 
   </body>
 

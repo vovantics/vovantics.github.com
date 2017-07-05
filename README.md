@@ -4,14 +4,14 @@ This is the data for my home page.
 
 It is automatically transformed by [Jekyll](http://github.com/mojombo/jekyll) into a static site whenever I push this repository to GitHub.
 
-This site uses Steve Matteson's Open Sans, mdo's [poole](https://github.com/poole/poole) CSS base styles , some Twitter Bootstrap CSS styles, and glyphicons by [ionicons](http://ionicons.com/).
+This site uses Steve Matteson's Open Sans, mdo's [poole](https://github.com/poole/poole) CSS styles, and ionic-team's [ionicons](https://github.com/ionic-team/ionicons).
 
 ## License
 
-The following directories and their contents are Copyright Stevo. You may not reuse anything therein without my permission:
+The following files, directories and their contents are Copyright Stevo. You may not reuse anything therein without my permission:
 
-* _posts/
-* images/
+* assets/
+* index.html
 
 All other directories and files are modified from MIT Licensed.
 
