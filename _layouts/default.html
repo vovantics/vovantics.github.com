@@ -1,27 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     {% include head.html %}
     {% seo %}
   </head>
-
   <body>
-
-    <div class="container content">
-
-      <main aria-label="Content">
-        {{ content }}
-      </main>
-
-      <hr>
-
-      {% include footer.html %}
-
-    </div>
-
+    <main aria-label="Content">
+      {{ content }}
+    </main>
+    {% include footer.html %}
     {% include google-analytics.html %}
-
   </body>
-
 </html>
