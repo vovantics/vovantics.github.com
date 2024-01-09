@@ -15,7 +15,7 @@ title: Home
             <ul style="list-style: none;">
                 <li><p>GITHUB: <a href="https://github.com/vovantics" target="_blank">@VOVANTICS</a></p></li>
                 <li><p>LINKEDIN: <a href="https://www.linkedin.com/in/stephenvovan/" target="_blank">stephenvovan</a></p></li>
-                <li><p><a href="/assets/docs/resume.pdf" target="_blank">RESUME</a></p></li>
+                <li><p><a href="/assets/docs/resume-stevo.pdf" target="_blank">RESUME</a></p></li>
             </ul>
             <br />
             <ul style="list-style: none;">
